@@ -51,7 +51,7 @@ endmacro()
 
 
 
-_qt5gui_find_extra_libs(OPENGL "glu32;opengl32;gdi32;user32" "" "")
+#_qt5gui_find_extra_libs(OPENGL "glu32;opengl32;gdi32;user32" "" "")
 
 
 
