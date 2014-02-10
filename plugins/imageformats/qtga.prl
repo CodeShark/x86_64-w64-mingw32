@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /home/eric/qt5-w64-build/qtimageformats/src/plugins/imageformats/tga
+QMAKE_PRO_INPUT = tga.pro
+QMAKE_PRL_TARGET = libqtga
+QMAKE_PRL_CONFIG = lex yacc depend_includepath testcase_targets import_plugins import_qpa_plugin incremental_off windows qt warn_on release link_prl debug_and_release precompile_header cross_compile static qpa rtti no_mocdepend release qt_no_framework win32 mingw gcc cross_compile qpa sse2 sse3 ssse3 sse4_1 sse4_2 avx avx2 pcre prefix_build force_independent force_bootstrap create_prl link_prl prepare_docs qt_docs_targets no_private_qt_headers_warning QTDIR_build no_dll exceptions_off testcase_exceptions done_config_libmng done_config_libtiff release ReleaseBuild Release build_pass plugin create_cmake c++11 release ReleaseBuild Release build_pass have_target staticlib exclusive_builds no_autoqmake thread needs_qpa_plugin moc resources
+QMAKE_PRL_LIBS = -L/lib -lQt5Gui -lgdi32 -lcomdlg32 -loleaut32 -limm32 -lwinmm -lQt5Core -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32  

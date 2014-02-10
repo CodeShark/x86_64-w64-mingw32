@@ -1,0 +1,15 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/${prefix}l${prefix}i${prefix}b${prefix}
+includedir=${prefix}/${prefix}i${prefix}n${prefix}c${prefix}l${prefix}u${prefix}d${prefix}e${prefix}
+
+host_bins=${prefix}/${prefix}u${prefix}s${prefix}r${prefix}/${prefix}x${prefix}8${prefix}6${prefix}_${prefix}6${prefix}4${prefix}-${prefix}w${prefix}6${prefix}4${prefix}-${prefix}m${prefix}i${prefix}n${prefix}g${prefix}w${prefix}3${prefix}2${prefix}/${prefix}h${prefix}o${prefix}s${prefix}t${prefix}/${prefix}b${prefix}i${prefix}n${prefix}
+qt_config=${prefix}m${prefix}i${prefix}n${prefix}i${prefix}m${prefix}a${prefix}l${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}s${prefix}m${prefix}a${prefix}l${prefix}l${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}m${prefix}e${prefix}d${prefix}i${prefix}u${prefix}m${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}l${prefix}a${prefix}r${prefix}g${prefix}e${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}f${prefix}u${prefix}l${prefix}l${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}n${prefix}o${prefix}-${prefix}p${prefix}k${prefix}g${prefix}-${prefix}c${prefix}o${prefix}n${prefix}f${prefix}i${prefix}g${prefix} ${prefix}c${prefix}+${prefix}+${prefix}1${prefix}1${prefix} ${prefix}a${prefix}c${prefix}c${prefix}e${prefix}s${prefix}s${prefix}i${prefix}b${prefix}i${prefix}l${prefix}i${prefix}t${prefix}y${prefix} ${prefix}s${prefix}t${prefix}a${prefix}t${prefix}i${prefix}c${prefix} ${prefix}q${prefix}p${prefix}a${prefix} ${prefix}r${prefix}e${prefix}d${prefix}u${prefix}c${prefix}e${prefix}_${prefix}r${prefix}e${prefix}l${prefix}o${prefix}c${prefix}a${prefix}t${prefix}i${prefix}o${prefix}n${prefix}s${prefix} ${prefix}c${prefix}l${prefix}o${prefix}c${prefix}k${prefix}-${prefix}g${prefix}e${prefix}t${prefix}t${prefix}i${prefix}m${prefix}e${prefix} ${prefix}c${prefix}l${prefix}o${prefix}c${prefix}k${prefix}-${prefix}m${prefix}o${prefix}n${prefix}o${prefix}t${prefix}o${prefix}n${prefix}i${prefix}c${prefix} ${prefix}g${prefix}e${prefix}t${prefix}a${prefix}d${prefix}d${prefix}r${prefix}i${prefix}n${prefix}f${prefix}o${prefix} ${prefix}j${prefix}p${prefix}e${prefix}g${prefix} ${prefix}p${prefix}n${prefix}g${prefix} ${prefix}g${prefix}i${prefix}f${prefix} ${prefix}n${prefix}o${prefix}-${prefix}f${prefix}r${prefix}e${prefix}e${prefix}t${prefix}y${prefix}p${prefix}e${prefix} ${prefix}n${prefix}o${prefix}-${prefix}h${prefix}a${prefix}r${prefix}f${prefix}b${prefix}u${prefix}z${prefix}z${prefix} ${prefix}z${prefix}l${prefix}i${prefix}b${prefix} ${prefix}c${prefix}o${prefix}n${prefix}c${prefix}u${prefix}r${prefix}r${prefix}e${prefix}n${prefix}t${prefix} ${prefix}r${prefix}e${prefix}l${prefix}e${prefix}a${prefix}s${prefix}e${prefix}
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.2.1
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32   
+Cflags: -I${includedir}/QtCore -I${includedir}
+

@@ -1,0 +1,14 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/${prefix}l${prefix}i${prefix}b${prefix}
+includedir=${prefix}/${prefix}i${prefix}n${prefix}c${prefix}l${prefix}u${prefix}d${prefix}e${prefix}
+
+
+Name: Qt5 Bluetooth
+Description: Qt Bluetooth module
+Version: 5.2.1
+Libs: -L${libdir} -lQt5Bluetooth 
+Libs.private: -L/lib -lQt5Cored -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -L/lib -lQt5Concurrentd -lQt5Cored -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32  
+Cflags: -I${includedir}/QtBluetooth -I${includedir}
+Requires: Qt5Core
+

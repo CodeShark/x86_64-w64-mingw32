@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/${prefix}u${prefix}s${prefix}r${prefix}/${prefix}x${prefix}8${prefix}6${prefix}_${prefix}6${prefix}4${prefix}-${prefix}w${prefix}6${prefix}4${prefix}-${prefix}m${prefix}i${prefix}n${prefix}g${prefix}w${prefix}3${prefix}2${prefix}/${prefix}h${prefix}o${prefix}s${prefix}t${prefix}/${prefix}l${prefix}i${prefix}b${prefix}
+includedir=${prefix}/${prefix}i${prefix}n${prefix}c${prefix}l${prefix}u${prefix}d${prefix}e${prefix}
+
+
+Name: Qt5 Bootstrap
+Description: Qt Bootstrap module
+Version: 5.2.1
+Libs: -L${libdir} -lQt5Bootstrap 
+Libs.private: -lpthread   
+Cflags: -I${includedir}/QtBootstrap -I${includedir}
+

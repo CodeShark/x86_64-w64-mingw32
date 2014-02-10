@@ -1,0 +1,2 @@
+CROSS_COMPILE = x86_64-w64-mingw32-
+GCC_MACHINE_DUMP = x86_64-w64-mingw32

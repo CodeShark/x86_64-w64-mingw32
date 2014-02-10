@@ -1,0 +1,14 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/${prefix}l${prefix}i${prefix}b${prefix}
+includedir=${prefix}/${prefix}i${prefix}n${prefix}c${prefix}l${prefix}u${prefix}d${prefix}e${prefix}
+
+
+Name: Qt5 Gui
+Description: Qt Gui module
+Version: 5.2.1
+Libs: -L${libdir} -lQt5Gui 
+Libs.private: -lgdi32 -lcomdlg32 -loleaut32 -limm32 -lwinmm -L/lib -lQt5Cored -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32   
+Cflags: -I${includedir}/QtGui -I${includedir}
+Requires: Qt5Core
+
