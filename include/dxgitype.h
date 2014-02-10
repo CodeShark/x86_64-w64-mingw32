@@ -1,0 +1,1 @@
+../../share/mingw-w64/include/dxgitype.h

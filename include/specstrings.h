@@ -1,0 +1,1 @@
+../../share/mingw-w64/include/specstrings.h

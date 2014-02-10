@@ -1,0 +1,1 @@
+../../share/mingw-w64/include/_mingw_stat64.h
