@@ -1,0 +1,15 @@
+# file      : libodb-sqlite.pc.in
+# copyright : Copyright (c) 2009-2013 Code Synthesis Tools CC
+# license   : GNU GPL v2; see accompanying LICENSE file
+
+prefix=/usr/x86_64-w64-mingw32
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libodb-sqlite
+Description: Object-relational mapping (ORM) system for C++, SQLite runtime library
+URL: http://www.codesynthesis.com/products/odb/
+Version: 2.3.0
+Libs: -L${libdir} -lodb-sqlite
+Cflags: -I${includedir}
