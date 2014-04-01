@@ -1,0 +1,10 @@
+$ wget http://ftp.gnu.org/pub/gnu/ncurses/ncurses-5.8.tar.gz
+$ tar xzvf ncurses-5.8.tar.gz
+$ mkdir ncurses-5.8-win64
+$ cd ncurses-5.8-win64
+$ ../ncurses-5.8/configure --prefix=/usr/x86_64-w64-mingw32 --host=x86_64-w64-mingw32 \
+    --without-progs --without-tests --without-shared --without-debug
+$ make
+$ sudo make install
+$ cd
+
