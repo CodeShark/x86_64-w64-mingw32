@@ -21,7 +21,7 @@
 // Empty.
 #elif defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 # if defined(_WINSOCKAPI_) && !defined(_WINSOCK2API_)
-#  error WinSock.h has already been included
+//#  error WinSock.h has already been included
 # endif // defined(_WINSOCKAPI_) && !defined(_WINSOCK2API_)
 # if defined(__BORLANDC__)
 #  include <stdlib.h> // Needed for __errno
